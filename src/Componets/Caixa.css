@@ -23,11 +23,16 @@
 .formulario{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 25em;
     font-weight: 500;
     color: var(--cinza);
     font-size: 1.2em;
+}
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.5em;
+    height: 22em;
 }
 #peso{
     width: 20%;

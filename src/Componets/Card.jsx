@@ -1,4 +1,5 @@
 import './Card.css'
+import { useState } from 'react'
 const Card = ({produto, comprar}) => {
     //retornamos a classe para que ela seja renderizada na parte de compras
     const fazerCompra = () =>{
