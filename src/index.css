@@ -1,8 +1,10 @@
 *{
-    list-style-type: none
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 body{
-    --azul-claro: #22bbff;
-    --cinza: #555566;
-    --laranja: #ffaa22;
+    --azul-claro: #52CEFF;
+    --cinza:  #697980;
+    --laranja: #FFF652;
 }

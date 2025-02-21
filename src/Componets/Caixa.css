@@ -5,6 +5,8 @@
     border-radius: 10px;
     min-height: 35em;
     max-height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     font-size: 1.5em;
@@ -26,13 +28,20 @@
     font-weight: 500;
     color: var(--cinza);
     font-size: 1.2em;
+    max-width: 500px;
+    justify-content: space-around;
+    flex-basis: 30em
 }
 .perguntas{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0.5em;
-    height: 22em;
+    flex-basis: 70%
+}
+.quantidade{
+    display:flex;
+    justify-content: space-around;
 }
 #peso{
     width: 20%;
@@ -43,10 +52,29 @@
 .botoes{
     display: flex;
     justify-content: space-around;
+    
+    max-width: 500px;
 }
 .pedir{
     background-color: var(--azul-claro);
     color: white;
-    flex-basis: 50%;
+    flex-basis: 70%;
     font-weight: 500;
+}
+.operador{
+    border: 2px solid var(--cinza);
+    color: var(--cinza);
+    padding: 0px 10px;
+    font-weight: 900;
+    background-color: white;
+}
+.operador:active{
+    background-color: var(--cinza);
+    color: white;
+}
+.soma{
+    border-radius: 10px 0 0 10px;
+}
+.subtrai{
+    border-radius: 0 10px 10px 0;
 }

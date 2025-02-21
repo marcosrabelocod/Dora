@@ -1,5 +1,6 @@
 import './Caixa.css'
 import { useState } from 'react'
+import Nota from './Nota'
 
 const Caixa = ({produto, comprar}) =>{
     const fazerCompra = () =>{
@@ -29,7 +30,15 @@ const Caixa = ({produto, comprar}) =>{
     //funçaõ para envaminhar o form para a confirmação
     const gerarPedido = (event) =>{
         event.preventDefault()
-        
+        setPedido ( {
+            nome: produto.nome,
+            quantidade: peso,
+            valor: valor
+            
+        })
+    }
+    const resetPedido = () =>{
+        setPedido(false)
     }
 
     return(
@@ -42,16 +51,19 @@ const Caixa = ({produto, comprar}) =>{
             </div>
             <form className='formulario' onSubmit={gerarPedido}>
                 <div className='perguntas'>
-                    <label className='Quantidade'>
-                        Preço: {produto.price}R$/ 0.5kg <br />
-                        Quantidade: 
+                    
+                    Preço: {produto.price}R$/ 0.5kg <br />
+                    <label className='quantidade'>
+                        Quantidade:
                         <input type="number" name="quantidade" id="peso" placeholder='peso'
                         onChange={calcular} value={peso}/>.kg
-                        <button onClick={somar} className='operador soma'>&#43;</button>
-                        <button onClick={subtrair} className='operador subtrai'>&#8722;</button>
+                        <div>
+                        <button onClick={somar} type='button' className='operador soma'>&#43;</button>
+                        <button onClick={subtrair} type='button' className='operador subtrai'>&#8722;</button>
+                        </div>
                         <br />
                     </label>
-                    <span>Total = {valor}</span>
+                    <span>Total = {valor},00 R$</span>
 
                 </div>
                 <div className='botoes'>
@@ -61,10 +73,7 @@ const Caixa = ({produto, comprar}) =>{
             </form>
         </div>
             ):(
-                <div>
-                <h1>pedido</h1>
-                {pedido}
-                </div>
+                <Nota pedido={pedido} resetPedido = {resetPedido}/>
             )}
         </>
     )

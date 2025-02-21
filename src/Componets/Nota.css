@@ -1,0 +1,19 @@
+.janela{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 35em;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Nota{
+    background-color: var(--laranja);
+    height: 22em;
+    margin:  20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    max-width: 500px;
+}
