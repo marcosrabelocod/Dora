@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: #4466DD;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: #4466DD;
+    font-weight: 700;
+}
+.destque{
+    background-color: #4466DD;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 20px;
+}

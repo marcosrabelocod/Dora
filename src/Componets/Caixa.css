@@ -1,0 +1,47 @@
+.Caixa{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 35em;
+    max-height: 500px;
+}
+.header{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--cinza);
+    display: flex;
+}
+.icon{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: var(--laranja);
+    border-radius: 25px;
+    margin-right: 3%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25em;
+    font-weight: 500;
+    color: var(--cinza);
+    font-size: 1.2em;
+}
+#peso{
+    width: 20%;
+    border: 2px solid var(--cinza);
+    border-radius: 15px;
+    padding: 3px;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+.pedir{
+    background-color: var(--azul-claro);
+    color: white;
+    flex-basis: 50%;
+    font-weight: 500;
+}

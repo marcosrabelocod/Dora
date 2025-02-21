@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 15px;
+    margin: 5px;
+    max-width: 45%;
+}

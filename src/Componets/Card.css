@@ -1,0 +1,28 @@
+
+
+.card{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 15px;
+    margin: 5px;
+    max-width: 45%;
+}
+.image{
+    max-width: 100%;
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--azul-claro);
+    border-radius: 10px;
+}
+.produto{
+    font-weight: 700;
+    color: var(--cinza)
+}
+
+.choise{
+    background-color: var(--azul-claro);
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+}
