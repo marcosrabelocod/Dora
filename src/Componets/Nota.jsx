@@ -17,7 +17,7 @@ const Nota = ({pedido, resetPedido}) =>{
                 </div>
                 <div className='botoes'>
                     <button onClick={resetPedido} className='btn btn-outline-info'>voltar</button>
-                    <a className='btn pedir' href={`https://web.whatsapp.com/send?phone={+5591991186199}&text=${mensagem}`}>Confirmar</a>
+                    <a className='btn pedir' href={`https://wa.me/+5591991186199?text=${mensagem}`}>Confirmar</a>
                 </div>
         </div>
     )
