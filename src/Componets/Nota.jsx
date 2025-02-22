@@ -3,9 +3,9 @@ import { useState } from 'react'
 
 const Nota = ({pedido, resetPedido}) =>{
     const [mensagem, setMensagem] = useState(
-        `Pedido de: ${pedido.nome}\n
-        quantidade: ${pedido.quantidade}kg\n
-        valor de: ${pedido.valor}R$\n
+        `Pedido de: ${pedido.nome}%0A
+        quantidade: ${pedido.quantidade}kg%0A
+        valor de: ${pedido.valor}R$%0A
         `
     )
     return(
@@ -22,5 +22,5 @@ const Nota = ({pedido, resetPedido}) =>{
         </div>
     )
 }
-
+//`https://wa.me/+5591991186199?text=${mensagem}`
 export default Nota
