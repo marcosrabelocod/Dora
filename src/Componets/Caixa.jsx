@@ -63,7 +63,7 @@ const Caixa = ({produto, comprar}) =>{
                         </div>
                         <br />
                     </label>
-                    <span>Total = {valor},00 R$</span>
+                    <span>Total = {valor} R$</span>
 
                 </div>
                 <div className='botoes'>

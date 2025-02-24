@@ -1,5 +1,4 @@
 
-
 .card{
     padding: 10px;
     text-align: center;
@@ -7,6 +6,12 @@
     border-radius: 15px;
     margin: 5px;
     max-width: 45%;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
 }
 .image{
     max-width: 100%;

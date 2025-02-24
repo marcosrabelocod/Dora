@@ -1,13 +1,13 @@
 .navbar-brand{
-    color: #6F7AAB;
+    color: var(--azul-roxo);
     font-weight: 700;
 }
 .navbar-brand:hover{
-    color: #6F7AAB;
+    color: var(--azul-roxo);
     font-weight: 700;
 }
 .destque{
-    background-color: #6F7AAB;
+    background-color: var(--azul-roxo);
     color: #fff;
     padding: 1px 5px;
     border-radius: 20px;

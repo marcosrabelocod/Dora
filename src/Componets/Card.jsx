@@ -7,16 +7,18 @@ const Card = ({produto, comprar}) => {
     }
 
     return(
-        <>
-            <div className="image">
+        <div className='conteudo'>
+            <div>
+                <div className="image">
 
-            </div>
-            <div className="price">
-                <span className='produto'>{produto.nome}</span><br/>
-                {produto.price}R$
+                </div >
+                <div className="price">
+                    <span className='produto'>{produto.nome}</span><br/>
+                    {produto.price}R$
+                </div>
             </div>
             <button onClick={fazerCompra} className='btn choise'>Escolher</button>
-        </>
+        </div>
     )
 }
 

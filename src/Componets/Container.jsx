@@ -7,23 +7,33 @@ const Container = () => {
     let estoque = [
         {
             id : 1,
-            nome: 'Pescado',
-            price: '30.00'
+            nome: 'File de Gó',
+            price: '10.00'
         },
-        {
+        /*{
             id: 2,
             nome: 'Camarão sem casca',
             price: '45.00'
-        },
+        }*/,
         {
             id: 3,
             nome: 'file de dourada',
-            price: '50.00'
+            price: '12.50'
         },
         {
             id: 4,
-            nome: 'Camarão com casca',
+            nome: 'Camarão com casca Medio',
+            price: '45.00'
+        },
+        {
+            id: 5,
+            nome: 'Camarão com casca Grande',
             price: '55.00'
+        },
+        {
+            id: 6,
+            nome: 'Massa de caranguejo',
+            price: '35.00'
         }
     ]
     
