@@ -17,7 +17,6 @@
     max-width: 100%;
     width: 300px;
     aspect-ratio: 1 / 1;
-    background-color: var(--azul-claro);
     border-radius: 10px;
 }
 .produto{

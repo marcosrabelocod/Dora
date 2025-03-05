@@ -8,32 +8,38 @@ const Container = () => {
         {
             id : 1,
             nome: 'File de Gó',
-            price: '10.00'
+            price: '10.00',
+            img:'1.webp'
         },
         /*{
             id: 2,
             nome: 'Camarão sem casca',
-            price: '45.00'
+            price: '45.00',
+            img:'2.webp'
         }*/,
         {
             id: 3,
-            nome: 'file de dourada',
-            price: '12.50'
+            nome: 'file de douradinha',
+            price: '13.00',
+            img:'3.jpg'
         },
         {
             id: 4,
-            nome: 'Camarão com casca Medio',
-            price: '45.00'
+            nome: 'Camarão Salgado',
+            price: '35.00',
+            img:'4.jpg'
         },
         {
             id: 5,
-            nome: 'Camarão com casca Grande',
-            price: '55.00'
+            nome: 'Camarão Rosa Medio',
+            price: '45.00',
+            img:'5.jpeg'
         },
         {
             id: 6,
             nome: 'Massa de caranguejo',
-            price: '35.00'
+            price: '35.00',
+            img:'6.webp'
         }
     ]
     

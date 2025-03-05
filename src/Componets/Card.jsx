@@ -9,9 +9,7 @@ const Card = ({produto, comprar}) => {
     return(
         <div className='conteudo'>
             <div>
-                <div className="image">
-
-                </div >
+                <img className="image" src={`/img/${produto.img}`} alt={produto.nome}/>
                 <div className="price">
                     <span className='produto'>{produto.nome}</span><br/>
                     {produto.price}R$
