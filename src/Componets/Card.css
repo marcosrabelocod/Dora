@@ -1,6 +1,6 @@
 
 .card{
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     font-size: 1.3em;
     border-radius: 15px;
@@ -15,7 +15,7 @@
 }
 .image{
     max-width: 100%;
-    width: 300px;
+    width: 190px;
     aspect-ratio: 1 / 1;
     border-radius: 10px;
 }
